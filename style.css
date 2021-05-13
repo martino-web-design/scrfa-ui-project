@@ -1,3 +1,4 @@
+/* --- base layout--- */
 body,
 p,
 span,
@@ -16,6 +17,7 @@ h3 {
   color: #142b47;
 }
 
+/* --- btn states --- */
 .btn:hover {
   background-color: #3068ad;
   color: #fff;
@@ -33,7 +35,7 @@ h3 {
   color: #fff;
 }
 
-/* navbar */
+/* --- navbar  --- */
 nav {
   border-bottom: 8px solid #1b3a61;
 }
@@ -111,7 +113,7 @@ nav h3 {
   color: #415a7b;
 }
 
-/* navbar dropdown menu */
+/* --- navbar dropdown menu --- */
 .dropdown-menu {
   border-radius: 0px;
   border-bottom: 8px solid #225089;
@@ -167,7 +169,7 @@ nav h3 {
   padding-bottom: 0.5rem;
 }
 
-/* search dropdown */
+/* --- search dropdown --- */
 .search-dropdown form {
   padding: 0.75rem;
   background-color: #0074c1;
@@ -213,7 +215,7 @@ nav h3 {
   fill: #fff;
 }
 
-/* banner image */
+/* --- banner image --- */
 .banner-image p {
   font-family: "Roboto Slab", sans-serif;
   font-size: 24px;
@@ -244,14 +246,12 @@ nav h3 {
   padding: 0.75rem 1.25rem;
 }
 
-/* section one */
+/* --- section one --- */
 .section-one {
   background-color: rgb(225, 229, 234);
 }
 
 .section-one .row {
-  /* margin-left: 4rem; */
-  /* margin-right: 4rem; */
   justify-content: space-evenly;
   align-items: center;
 }
@@ -264,30 +264,27 @@ nav h3 {
 .section-one div.box {
   height: 250px;
   width: 250px;
-  /* padding-left: 2.5rem; */
-  /* padding-right: 2.5rem; */
 }
 
 .section-one span {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
-  color: #225089;
+  letter-spacing: 0.5px;
+  color: #1b3a61;
 }
 
-/* section two */
+/* --- section two --- */
 .section-two .container {
-  /* padding-left: 4rem; */
-  /* padding-right: 4rem; */
   margin-bottom: 3rem;
 }
 
 .section-two h2 {
   font-weight: 700;
   font-size: 30px;
-  color: #225089;
+  color: #1b3a61;
   padding-bottom: 0.75rem;
   margin-bottom: 2rem;
-  border-bottom: 8px solid #225089;
+  border-bottom: 8px solid #1b3a61;
 }
 
 .section-two a {
@@ -296,7 +293,7 @@ nav h3 {
   color: #0074c1;
 }
 
-/* section three */
+/* --- section three --- */
 .section-three a {
   font-size: 18px;
   font-weight: 600;
@@ -304,7 +301,7 @@ nav h3 {
 }
 
 .section-three h2 {
-  color: #225089;
+  color: #1b3a61;
 }
 
 .section-three h4 {
@@ -394,7 +391,7 @@ nav h3 {
   min-width: 16px;
 }
 
-/* logos */
+/* --- logos --- */
 .rfa-logo {
   height: 80px;
   width: 80px;
@@ -409,7 +406,7 @@ nav h3 {
   height: 386px;
 }
 
-/* footer */
+/* --- footer --- */
 footer {
   background-color: #1b3a61;
   padding-top: 2rem;
@@ -461,6 +458,7 @@ footer .navigation li {
   margin-top: 2rem;
 }
 
+/* --- media q's --- */
 @media (max-width: 575.98px) {
   .section-three span.events {
     font-size: 14px;
